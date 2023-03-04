@@ -1,0 +1,72 @@
+
+
+.logoIcon-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.utilityBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconList{
+    display: flex;
+    align-items: center;
+}
+
+.iconList li {
+    margin: 2px 15px;
+}
+
+.iconList li img {
+    width: 20px;
+}
+
+.button-menu{
+    margin-left: 20px;
+    display: flex;
+    width: 93%;
+    justify-content: space-between;
+}
+
+.iconBars{
+    width: 30px;
+}
+
+.search-input-container{
+    width: 75%;
+    display: flex;
+}
+
+.search-input{
+    width: 92%;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    border: 0.5px solid gray;
+    padding-left: 15px;
+}
+
+.search-icon-container{
+    background-color: black;
+    width: 18px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu{
+    color: white;
+}
+
+.dropdown-menu li{
+    background-color: black;
+    padding: 13px 12px;
+    border: white 1px solid;
+}
+
