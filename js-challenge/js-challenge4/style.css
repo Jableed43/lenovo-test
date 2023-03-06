@@ -1,0 +1,34 @@
+body{
+    background-image: url(./lenovo-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.counter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: white;
+    padding: 10px;
+}
+
+
+#button-counter ,#counter-reset{
+    padding: 10px;
+    border-radius: 10px;
+    align-self: center;
+    color: white;
+}
+
+#counter-reset{
+    background-color: #DC4C64;
+}
+
+#button-counter{
+    background-color: #3B71CA;
+}

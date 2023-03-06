@@ -1,5 +1,5 @@
 /* 
-- testnum: checks if a number is valid, positive and integer
+- testnum: checks if value is valid, positive and integer number
 - randomId: generates a random unique alphanumeric id
 */
 
