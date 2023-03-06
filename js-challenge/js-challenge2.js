@@ -1,5 +1,5 @@
-// Create a function that receives a String as parameter and returns a Boolean value indicating if the
-// word is a palindrome* or not.
+/* Create a function that receives a String as parameter and returns a Boolean value indicating if the word is a palindrome* or not. 
+Down below you will find a test section. */
 
 function checkPalindrome(string) {
     if(typeof string === 'string'){
