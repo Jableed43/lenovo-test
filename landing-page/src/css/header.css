@@ -1,9 +1,9 @@
-
-
 .logoIcon-container{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    width: 100%;
+    background-color: white;
 }
 
 .utilityBar{
@@ -66,7 +66,61 @@
 
 .dropdown-menu li{
     background-color: black;
-    padding: 13px 12px;
     border: white 1px solid;
 }
 
+.dropdown-menu-ul{
+    background-color: white;
+    color: black;
+}
+
+.dropdown-menu-ul li{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-option{
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-option a, .dropdown-menu-ul a{
+    width: 100%;
+}
+
+li ul li a, .menu-option a{
+    color: white;
+}
+
+img.arrow-rotate-down{
+    transform: rotate(180deg);
+    width: 10px;
+}
+
+img.arrow-rotate-right{
+    transform: rotate(90deg);
+    width: 10px;
+}
+
+.dropdown-menu-ul li a {
+    font-size: 14px;
+    line-height: 14px;
+    color: black;
+    padding: 13px 0px;
+}
+
+.dropdown-menu-ul li img {
+    margin: -6px 10px;
+    max-width: 45.5px;
+    max-height: 25px;
+}
+
+#sale{
+    color: red;
+}
