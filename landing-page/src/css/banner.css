@@ -1,0 +1,36 @@
+.banner{
+    background-color: var(--bannerColor);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+
+.banner p {
+    margin: 0 5px;
+    font-weight: 100;
+    letter-spacing: -0.13px;
+    font-size: 14px;
+}
+
+.banner span{
+    font-weight: 900;
+}
+
+.banner a{
+    margin: 0 5px;
+    color: white;
+    text-decoration: underline;
+}
+
+.arrow-go{
+    margin: 0 5px;
+    width: 10px;
+    height: 6px;
+}
+
+.shop-now-container{
+    display: flex;
+    align-items: center;
+}

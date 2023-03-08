@@ -1,0 +1,17 @@
+.optionsBar-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.optionsBar-container li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4px 10px;
+}
+
+.optionsBar-container li a{
+    color: var(--grayOptionBar);
+}
