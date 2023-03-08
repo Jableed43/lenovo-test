@@ -8,6 +8,11 @@
 
 }
 
+div#root{
+    display: flex;
+    flex-direction: column;
+}
+
 ul{
     list-style: none;
 }
@@ -16,15 +21,11 @@ ul{
     --grayCards: #BCBCBC;
     --bannerColor: #AF0E4E;
     --grayOptionBar: #555555;
-    --gray3: #00000080;
-    --gray4: #545454;
     --addToCart: #0D5C91;
     --cardRed: #AF0200;
-    --white2: #F8F8F8;
+    --white-clear: #F8F8F8;
     --redSale: #E02020;
 }
-
-
 
 a {
     text-decoration: none;

@@ -13,7 +13,7 @@
     "price": "$1,229.99",
     "image": "./products-img/lenovo-laptop-thinkpad-x1-extreme-2nd-gen-hero.png",
     "coupon": "YOGAPRESALE8",
-    "flag": ""
+    "flag": null
 },
 {
     "id": 3,
@@ -30,7 +30,7 @@
     "price": "$1,229.99",
     "image": "./products-img/lenovo-laptop-thinkpad-x1-extreme-2nd-gen-hero.png",
     "coupon": "YOGAPRESALE8",
-    "flag": ""
+    "flag": null
 },
 {
     "id": 5,
@@ -47,7 +47,24 @@
     "price": "$1,229.99",
     "image": "./products-img/lenovo-laptop-thinkpad-x1-extreme-2nd-gen-hero.png",
     "coupon": "YOGAPRESALE8",
-    "flag": ""
+    "flag": null
+},
+{
+    "id": 7,
+    "name": "ThinkPad X1 Carbon Gen 8",
+    "price": "$1,229.99",
+    "image": "./products-img/x1carb-8th@2x.png",
+    "coupon": "YOGAPRESALE8",
+    "flag": "DOORBUSTER",
+    "flag-class": "product-flag"
+},
+{
+    "id": 8,
+    "name": "ThinkPad X1 Extreme Gen 2 Hero",
+    "price": "$1,229.99",
+    "image": "./products-img/lenovo-laptop-thinkpad-x1-extreme-2nd-gen-hero.png",
+    "coupon": "YOGAPRESALE8",
+    "flag": null
 }]
 
 

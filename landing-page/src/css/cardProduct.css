@@ -10,16 +10,19 @@
     width: 90%;
     margin: 10px 0;
     border: 1px solid var(--grayCards);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .product-flag{
-    background-color: #AF0200;
+    background-color: var(--cardRed);
     color: white;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 7px;
+    border-radius: 2px;
     width: 60%;
-    margin-left: 25px;
-    margin-top: 15px;
+    margin-left: 14px;
+    margin-top: 13px;
     text-align: center;
 }
 
@@ -31,14 +34,16 @@
 }
 
 .product-image{
-    width: 80%;
-    max-width: 210px;
+    width: 200px;
+    height: 150px;
 }
 
 .product-name{
-    color: #0D5C91;
+    color: var(--addToCart);
     text-align: center;
     font-weight: 800;
+    font-size: 14px;
+    margin: 5px 0;
 }
 
 .product-price{
@@ -59,7 +64,7 @@
 .product-addToCart-button{
     width: 80%;
     height: 45px;
-    background-color: #0D5C91;
+    background-color: var(--addToCart);
     color: white;
     font-size: 16px;
     border-radius: 5px;
@@ -89,4 +94,14 @@
     }
 
  
+}
+
+@media (min-width: 1280px){
+    .product-card-box li {
+        width: 22%;
+    }
+
+    .product-image{
+        max-width: 95%;
+    }
 }

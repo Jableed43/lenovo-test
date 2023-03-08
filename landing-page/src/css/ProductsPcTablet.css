@@ -16,7 +16,7 @@
     padding-left: 13px;
     background: white;
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid var(--grayCards);
     height: 41.6px;
     font-size: 15px;
     text-align: start;
@@ -45,7 +45,7 @@
 }
 
 .product-filter-container{
-    border-top: 1px solid #BCBCBC;
+    border-top: 1px solid var(--grayCards);
 }
 
 .result-select div p, .result-select div select{
@@ -55,19 +55,15 @@
     border-radius: 5px;
 }
 
-
-
 .products-container{
     width: 100%;
-    border-top: 1px solid #BCBCBC;
+    border-top: 1px solid var(--grayCards);
 }
 
 .products-container p.results{
     text-align: center;
     margin: 10px 0;
 }
-
-
 
 .products-container ul{
     display: flex;
@@ -143,15 +139,60 @@
   hr{
     width: 100%;
     height: 1px;
-    background: #BCBCBC;
+    background: var(--grayCards);
   }
 
   @media (min-width: 768px) {
+
+    .result-select div select{
+      font-weight: 700;
+    width: 200px;
+    margin-top: 20px;
+    }
 
     .products-container ul {
       flex-direction: row;
       align-items: center;
       flex-wrap: wrap;
       justify-content: center;
+  }
+  }
+
+  @media (min-width: 1280px){
+
+    .result-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+    .product-filter-container {
+      flex-direction: row;
+      flex-wrap: nowrap;
+  }
+
+  .filter-container{
+    border-bottom: 1px solid black;
+    height: 100%;
+    align-items: flex-start;
+    width: 25%;
+  }
+
+    .pcTablet-h1{
+      display: block;
+      font-size: 32px;
+      text-align: start;
+      margin-top: 50px;
+  }
+
+  .products-container p.results{
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+  .product-big-container{
+    width: 80%;
+    align-self: center;
   }
   }
