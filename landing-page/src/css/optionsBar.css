@@ -15,7 +15,28 @@
 
 .optionsBar-container li a{
     color: var(--grayOptionBar);
+    transition: 2s ease;
+    position: relative;
 }
+
+.optionsBar-container li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  var(--redSale);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .optionsBar-container li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 @media (min-width: 1280px) {
     .optionsBar-container li{

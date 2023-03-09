@@ -30,37 +30,37 @@ function Header() {
             <ul className="iconList">
               <li>
                 <a href="#">
-                  <img src={iconCompare} alt="Compare two or more products" />
+                  <img className="utility-icon" src={iconCompare} alt="Compare two or more products" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src={iconUser} alt="Access to User options" />
+                  <img className="utility-icon"  src={iconWhishlist} alt="Access to your wishlist" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src={iconLocator} alt="Access to Store locations" />
+                  <img className="utility-icon"  src={iconLocator} alt="Access to Store locations" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src={iconReward} alt="Access to Reward program" />
+                  <img className="utility-icon"  src={iconContact} alt="Access to contact section" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src={iconCart} alt="Access to your Cart" />
+                  <img className="utility-icon"  src={iconReward} alt="Access to rewards program section" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src={iconContact} alt="Contact with lenovo help desk" />
+                  <img className="utility-icon"  src={iconUser} alt="Access to your user profile section" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src={iconWhishlist} alt="Access to your" />
+                  <img className="utility-icon"  src={iconCart} alt="Access to your personal cart section" />
                 </a>
               </li>
             </ul>

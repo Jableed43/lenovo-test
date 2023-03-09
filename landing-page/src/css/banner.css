@@ -34,7 +34,13 @@
 .shop-now-container{
     display: flex;
     align-items: center;
+    transition: 0.2s;
 }
+
+.shop-now-container:hover{
+    filter: drop-shadow(2px 4px 6px black);
+}
+
 
 @media (min-width: 1280px){
     .banner p {

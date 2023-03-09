@@ -16,12 +16,13 @@
     padding-left: 13px;
     background: white;
     border-radius: 5px;
-    border: 1px solid var(--grayCards);
+    border: 1px solid black;
     height: 41.6px;
     font-size: 15px;
     text-align: start;
     margin-top: 10px
 }
+
 
 .filter-container, .result-select{
     width: 50%;
@@ -57,12 +58,14 @@
 
 .products-container{
     width: 100%;
-    border-top: 1px solid var(--grayCards);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .products-container p.results{
     text-align: center;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .products-container ul{
@@ -145,9 +148,7 @@
   @media (min-width: 768px) {
 
     .result-select div select{
-      font-weight: 700;
-    width: 200px;
-    margin-top: 20px;
+      margin-top: 10px;
     }
 
     .products-container ul {
@@ -160,11 +161,22 @@
 
   @media (min-width: 1280px){
 
+    .result-select div select{
+      cursor: pointer;
+      width: 95%;
+    }
+
     .result-select{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0px 50px;
+      padding-top: 10px;
+    }
+
+    .result-select div{
+      width: 23%;
     }
 
     .product-filter-container {
@@ -187,7 +199,6 @@
   }
 
   .products-container p.results{
-    margin-left: 40px;
     font-weight: 700;
 }
 

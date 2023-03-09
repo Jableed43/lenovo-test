@@ -13,6 +13,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    border-radius: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.product-card-box li:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 8px -4px black;
 }
 
 .product-flag{
@@ -70,7 +78,15 @@
     border-radius: 5px;
     align-self: center;
     margin-bottom: 20px;
+    transition: 0.2s;
+    cursor: pointer;    
 }
+
+.product-addToCart-button:hover{
+    opacity: 0.6;
+}
+
+
 
 .product-price-coupon-button{
     display: flex;
@@ -88,7 +104,7 @@
     }
 
     .product-card-box li{
-        width: 30%;
+    width: 30%;
     margin: 10px 10px;
     border: 1px solid var(--grayCards);
     }
