@@ -3,7 +3,7 @@ let {Car} = require('./js-challenge5')
 var fs = require('fs');
 class CarManager {
     array = []
-    /* getItemsByKey returns an array, key parameter is the category your cars are sorted by, can be a color as 'red', or a size as 'medium' */
+    /* getItemsByKey returns an array of cars according to key parameter. Cars are sorted by a value of a key which can be a color as 'red', or a size as 'medium' */
     getItemsByKey(key) {
         try {
             let array = this.array;
@@ -14,7 +14,7 @@ class CarManager {
             console.log('An error ocurred: ', error);
         }
 }
-/* addNewCategoryList creates a new category inside array, based on specific key. name parameter is the category you want your items to be separated and sorted by. Can be a new color, a new size. */
+/* addNewCategoryList creates a new category inside array, based on specific key. name parameter is the category you want your items to be separated and sorted by. Can be a new color or a new size. */
     addNewCategoryList(name) {
     try {
         let array = this.array;
@@ -56,7 +56,7 @@ let largeBlue3 = new Car('large', 'blue')
 let mediumRed = new Car('medium', 'red')
 
 
-// color category
+// color category test
 // manejador.addNewCategoryList('red')
 // manejador.addNewCategoryList('blue')
 // manejador.addCarByKey(largeBlue,'color')
@@ -69,7 +69,7 @@ let mediumRed = new Car('medium', 'red')
 // manejador.addCarByKey(mediumRed,'color')
 // manejador.getItemsByKey('red')
 
-// size caregory
+// size category test
 // manejador.addNewCategoryList('small')
 // manejador.addNewCategoryList('medium')
 // manejador.addNewCategoryList('large')
