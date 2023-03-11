@@ -8,6 +8,7 @@
   - Html 
   - Js
   - Css
+  - React.js
 
 **Steps to run the project.:**
 
