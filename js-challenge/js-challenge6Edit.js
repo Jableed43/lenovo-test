@@ -42,6 +42,8 @@ try {
 
 }
 //Test
+//note: run a test at a time
+
 let manejador = new CarManager()
 // Create Car class instances
 let largeBlue = new Car('large', 'blue')
@@ -53,7 +55,8 @@ let smallRed2 = new Car('small', 'red')
 let largeBlue3 = new Car('large', 'blue')
 let mediumRed = new Car('medium', 'red')
 
-//test color caregory
+
+// color category
 // manejador.addNewCategoryList('red')
 // manejador.addNewCategoryList('blue')
 // manejador.addCarByKey(largeBlue,'color')
@@ -66,22 +69,22 @@ let mediumRed = new Car('medium', 'red')
 // manejador.addCarByKey(mediumRed,'color')
 // manejador.getItemsByKey('red')
 
-//test size caregory
-// manejador.addNewCategoryList('small')
-// manejador.addNewCategoryList('medium')
-// manejador.addNewCategoryList('large')
-// manejador.addCarByKey(largeBlue,'size')
-// manejador.addCarByKey(smallRed,'size')
-// manejador.addCarByKey(largeBlue2,'size')
-// manejador.addCarByKey(largeRed,'size')
-// manejador.addCarByKey(mediumBlue,'size')
-// manejador.addCarByKey(smallRed2,'size')
-// manejador.addCarByKey(largeBlue3,'size')
-// manejador.addCarByKey(mediumRed,'size')
-// manejador.getItemsByKey('small')
+// size caregory
+manejador.addNewCategoryList('small')
+manejador.addNewCategoryList('medium')
+manejador.addNewCategoryList('large')
+manejador.addCarByKey(largeBlue,'size')
+manejador.addCarByKey(smallRed,'size')
+manejador.addCarByKey(largeBlue2,'size')
+manejador.addCarByKey(largeRed,'size')
+manejador.addCarByKey(mediumBlue,'size')
+manejador.addCarByKey(smallRed2,'size')
+manejador.addCarByKey(largeBlue3,'size')
+manejador.addCarByKey(mediumRed,'size')
+manejador.getItemsByKey('small')
 
 console.log('log:', ...manejador.array);
 
-/* To show how data is represented i decided to write inside a json and save the car array */
+/* To show how data is represented i decided to write a json file and save the car array inside */
 fs.writeFileSync('./cars.json', JSON.stringify(manejador.array, null, 2));
 console.log(JSON.parse(fs.readFileSync('./cars.json', 'utf8')));
