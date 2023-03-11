@@ -4,7 +4,7 @@ Down below you will find a test section. */
 let {testNum} = require('./utils')
 
 function returnPairsNum(arrayInt) {
-    //Check if parameter is an array and it's not empty
+    //Validate to Check if parameter is an array and it's not empty
   if ((Array.isArray(arrayInt)) && arrayInt.length > 1) {
     const pairNums = [];
     for (let index = 0; index < arrayInt.length; index++) {

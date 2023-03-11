@@ -1,0 +1,50 @@
+[
+  {
+    "red": [
+      {
+        "size": "small",
+        "color": "red",
+        "id": "co7am"
+      },
+      {
+        "size": "large",
+        "color": "red",
+        "id": "3v0fc"
+      },
+      {
+        "size": "small",
+        "color": "red",
+        "id": "emnqe"
+      },
+      {
+        "size": "medium",
+        "color": "red",
+        "id": "yqaoj"
+      }
+    ]
+  },
+  {
+    "blue": [
+      {
+        "size": "large",
+        "color": "blue",
+        "id": "dpa4b"
+      },
+      {
+        "size": "large",
+        "color": "blue",
+        "id": "z3oqi"
+      },
+      {
+        "size": "medium",
+        "color": "blue",
+        "id": "ohydm"
+      },
+      {
+        "size": "large",
+        "color": "blue",
+        "id": "5jjh1"
+      }
+    ]
+  }
+]
