@@ -24,10 +24,9 @@ The landing page adheres to the following requirements:
 ## Technologies Used
 
 * HTML5
-* CSS3 (potentially SASS/SCSS)
-* JavaScript (vanilla - optional)
-* React (optional)
-* TypeScript (optional, if using React)
+* CSS3
+* React
+* TypeScript
 
 ## How to Run the Project
 
@@ -57,10 +56,11 @@ To run the project locally, follow these steps:
 
 ### Result
 #### Lenovo Design
-![lenovo-lenovo](https://github.com/user-attachments/assets/76251f91-51be-4d93-b278-77ed3adbaf28)
+![lenovo-lenovo](https://github.com/user-attachments/assets/f84a93a4-1450-4f65-8309-6e3b93bd1c9c)
+
 
 #### My result
-![mine-lenovo](https://github.com/user-attachments/assets/746bc3e8-ed6a-4ee8-afe0-81f0886a1a98)
+![mine-lenovo](https://github.com/user-attachments/assets/41d8e065-a21a-4cf1-adc8-0c52702c76e3)
 
 ## JavaScript Challenge
 
